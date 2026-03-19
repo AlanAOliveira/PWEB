@@ -1,0 +1,10 @@
+API (Application Programming Interface, ou Interface de Programação de Aplicações) é um conjunto de normas e protocolos que permite que dois softwares se comuniquem e troquem dados entre si. Ela atua como um intermediário, permitindo que um aplicativo solicite funcionalidades ou informações de outro sistema de forma segura e padronizada. 
+Principais características e usos das APIs:
+Comunicação entre Sistemas: Facilita a conexão entre diferentes tecnologias, como um aplicativo de celular consumindo dados de um servidor web.
+Integração e Automação: Permite que sistemas de CRM, e-commerce e plataformas financeiras trabalhem juntos, sincronizando dados automaticamente.
+Exemplos Práticos:
+Facebook Graph API (integração com redes sociais).
+OpenWeatherMap API (consulta de dados meteorológicos).
+Pagamentos (Stripe, PayPal, Iugu) (processamento seguro de transações).
+API do Google Maps (incorporação de mapas).
+APIs REST: Um padrão amplamente utilizado na web que usa o protocolo HTTP (métodos como GET, POST) e geralmente troca dados em formato JSON. 
