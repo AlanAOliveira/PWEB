@@ -16,12 +16,14 @@ function calculosDoidos(){
     var subtracao = numero1 - numero2;
     var multiplicacao = numero1 * numero2;
     var divisao = numero1 / numero2;
+    var resto = numero1 % numero2;
 
-    
+
     document.getElementById("resultadoCalculos").innerHTML = `Soma: ${soma.toFixed(2)}<br>
     Subtração: ${subtracao.toFixed(2)}<br>
     Multiplicação: ${multiplicacao.toFixed(2)}<br>
-    Divisão: ${divisao.toFixed(2)}`;
+    Divisão: ${divisao.toFixed(2)}<br>
+    Resto: ${numero1 % numero2}`;
 
 }
 
