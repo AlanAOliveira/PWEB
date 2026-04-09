@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media
+    </title>
+
+    <style>
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="card">
+            <p>Nome do Aluno:</p>
+            <input type="text" id="nomeAluno">
+            <p>Nota 1:</p>
+            <input type="number" id="nota1">
+            <p>Nota 2:</p>
+            <input type="number" id="nota2">
+            <p>Nota 3:</p>
+            <input type="number" id="nota3">
+            <p>Nota 4:</p>
+            <input type="number" id="nota4">
+            <button type="button" onclick="calculaMedia()">Calcular Média</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="Atividade6.js"></script>
+</body>
+
+</html>
