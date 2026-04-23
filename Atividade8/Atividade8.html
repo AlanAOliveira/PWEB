@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Atividade8.css">
+
+</head>
+
+<body>
+    <div class="content">
+
+        <h1>Pesquisa</h1>
+        <p>Informe sua idade:</p>
+        <input type="number" id="idade">
+        <p>Informe seu Sexo:</p>
+        <select id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <p>Opinião sobre o filme:</p>
+        <input type="radio" id="otimo" name="avaliacao" value="4">Otimo<br>
+        <input type="radio" id="bom" name="avaliacao" value="3">Bom<br>
+        <input type="radio" id="regular" name="avaliacao" value="2">Regular<br>
+        <input type="radio" id="ruim" name="avaliacao" value="1">Ruim<br>
+        <button onclick="enviar()" id="enviar">Enviar</button>
+        <hr>
+        <button onclick="responder(45)">Preencher com 45 Dados Aleatórios</button>
+        <hr>
+        <button onclick="processaresultados()" id="processarresultados">Processar Resultados</button>
+        <div id="resultados"></div>
+
+    </div>
+    <script src="Atividade8.js"></script>
+</body>
+
+</html>
